@@ -1,0 +1,14 @@
+.CharacterListItem__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.CharacterListItem__info {
+  width: 50%;
+}
+
+.CharacterListItem__characters {
+  width: 50%;
+}

@@ -1,0 +1,18 @@
+.FilmsListItem__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.FilmsListItem__info {
+  width: 50%;
+}
+
+.FilmsListItem__characters {
+  width: 50%;
+}
+
+.FilmsListItem__info-title {
+  cursor: pointer;
+}

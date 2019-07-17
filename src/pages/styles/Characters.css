@@ -1,0 +1,19 @@
+.Characters__hero {
+  width: 100%;
+  padding: 2rem 0;
+  background: url('../../images/stars.svg'), #000;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  color: #ffe93e;
+}
+
+.Characters__container {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto 5rem;
+  padding: 0 1rem;
+}
+
+.Characters__container-title {
+  cursor: pointer;
+}
