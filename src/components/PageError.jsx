@@ -4,7 +4,7 @@ import './styles/PageError.css'
 
 const PageError = ({ error }) => (
   <div className="PageError">
-    <h3>{error} ❌</h3>
+    <h3>{error} <span aria-label='emoji' role='img'>❌</span></h3>
   </div>
 )
 

@@ -55,7 +55,7 @@ class Films extends Component {
         <div className="Films">
           <div className="Films__hero">
             <div className="Films__container">
-              <h1 className="font-weight-light">May the force be with you. ✨</h1>
+              <h1 className="font-weight-light">May the force be with you. <span aria-label='emoji' role='img'>✨</span></h1>
             </div>
           </div>
         </div>
