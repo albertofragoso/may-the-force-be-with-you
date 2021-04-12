@@ -66,7 +66,10 @@ class Characters extends Component {
   handleSearch = e => {
     const { characters, tempCharacters } = this.state
     if(e.target.value) {
-      const filterCharacters = characters.filter(character => character.eye_color.toLowerCase().includes(e.target.value.toLowerCase()) || character.gender.toLowerCase().includes(e.target.value.toLowerCase()))
+      const filterCharacters = characters.filter(character => 
+        character.name.toLowerCase().includes(e.target.value.toLowerCase()) || 
+        character.eye_color.toLowerCase().includes(e.target.value.toLowerCase()) || 
+        character.gender.toLowerCase().includes(e.target.value.toLowerCase()))
       this.setState({ characters: filterCharacters })
     } else {
       this.setState({ characters: tempCharacters })
